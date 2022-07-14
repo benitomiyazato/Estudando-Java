@@ -4,7 +4,7 @@ public class StringTest02 {
     public static void main(String[] args) {
         String name = "Luffy";
         String numbers = "123456789";
-        String bostao = "   Baian o  ";
+        String alo = "   Baian o  ";
 
         System.out.println(name.charAt(0));
         System.out.println(name.length());
@@ -13,7 +13,7 @@ public class StringTest02 {
         System.out.println(name.toLowerCase());
         System.out.println(numbers.substring(2));
         System.out.println(numbers.substring(0, numbers.length()));
-        System.out.println(bostao);
-        System.out.println(bostao.trim());
+        System.out.println(alo);
+        System.out.println(alo.trim());
     }
 }

@@ -8,8 +8,8 @@ public class RuntimeExpectionTest01 {
             n[3] = 12;
         } catch (ArrayIndexOutOfBoundsException e) {
             e.printStackTrace();
-            System.out.println("vc nao pode colocar um número em um index maior que o tamanho do array, animal");
-            System.out.println("esse array tem tamanho 3, entao só vai até o indice 2, entao nao inventa moda");
+            System.out.println("vc nao pode colocar um número em um index maior que o tamanho do array");
+            System.out.println("esse array tem tamanho 3, entao só vai até o indice 2");
         }
 
     }

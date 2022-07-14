@@ -9,7 +9,7 @@ public class FileWriterTest01 {
         File file = new File("src\\file.txt");
 
         try (FileWriter fileWriter = new FileWriter(file, true)) {
-            fileWriter.write("O baiano é bem gayyyyyyyy\n");
+            fileWriter.write("aaaaalooooooooooooooo\n");
             fileWriter.flush();
         } catch (IOException e) {
             e.printStackTrace();

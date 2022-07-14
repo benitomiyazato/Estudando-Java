@@ -8,7 +8,7 @@ import academy.devdojo.maratonajava.javacore.ZZDoptional.repository.MangaReposit
 public class OptionalTest02 {
     public static void main(String[] args) {
         Optional<Manga> manga1 = MangaRepository.findMangaByTitle("One Piece");
-        manga1.ifPresent(manga -> manga.setTitle("VAI TOMAR NO CU"));
+        manga1.ifPresent(manga -> manga.setTitle("TITULO DIFERENTE"));
         System.out.println(manga1);
 
         Manga manga2 = MangaRepository.findMangaById(1).orElseThrow(IllegalArgumentException::new);
@@ -16,7 +16,7 @@ public class OptionalTest02 {
 
         Manga newManga = MangaRepository.findMangaByTitle("Dragon Ball Z")
                 .orElseGet(() -> new Manga(3, "Dragon Ball Z", 123));
-                
+
         System.out.println(newManga);
 
     }
